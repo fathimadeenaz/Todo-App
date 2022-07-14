@@ -167,5 +167,49 @@ h1 {
 	margin-right: 5px;
 }
 
-.edit-icon {
+/* Medium devices (landscape tablets, 768px and down) */
+@media only screen and (max-width: 768px) {
+	.todo-app {
+		width: 80%;
+		padding: 35px 55px;
+	}
+
+	.todo-input {
+		width: calc(100% - 90px);
+		/* width: calc(100% - 100.77px); */
+	}
+
+	.todo-button,
+	.todo-button.edit {
+		min-width: fit-content;
+		width: fit-content;
+	}
+}
+
+/* Small devices (phones, 480px and down) */
+@media only screen and (max-width: 480px) {
+	.todo-app {
+		padding: 35px;
+	}
+
+	h1 {
+		margin: 20px 0 35px;
+	}
+
+	.todo-input {
+		width: calc(100% - 74.32px);
+		padding: 14px;
+	}
+
+	.todo-input.edit {
+		width: calc(100% - 75.07px);
+	}
+
+	.todo-button {
+		padding: 16px 10px;
+	}
+
+	.todo-button.edit {
+		padding: 16px;
+	}
 }
