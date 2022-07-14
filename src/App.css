@@ -146,18 +146,26 @@ h1 {
 	);
 }
 
+#group-1 {
+	display: flex;
+	align-items: center;
+}
+
 .icons {
 	display: flex;
 	align-items: center;
 	font-size: 24px;
 	cursor: pointer;
+	color: #fff;
+}
+
+.hidden {
+	display: none;
 }
 
 .delete-icon {
 	margin-right: 5px;
-	color: #fff;
 }
 
 .edit-icon {
-	color: #fff;
 }
