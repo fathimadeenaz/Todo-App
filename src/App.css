@@ -72,11 +72,18 @@ h1 {
 	border-radius: 0 4px 4px 0;
 	cursor: pointer;
 	outline: none;
-	background: linear-gradient(
+	/* background: linear-gradient(
 		90deg,
 		rgba(93, 12, 255, 1) 0%,
 		rgba(155, 0, 250, 1) 100%
+	); */
+
+	background: linear-gradient(
+		90deg,
+		rgba(255, 12, 241, 1) 0%,
+		rgba(250, 0, 135, 1) 100%
 	);
+
 	color: #fff;
 	text-transform: capitalize;
 }
@@ -197,7 +204,7 @@ h1 {
 	}
 
 	.todo-input {
-		width: calc(100% - 74.33px);
+		width: calc(100% - 75.32px);
 		padding: 14px;
 	}
 
